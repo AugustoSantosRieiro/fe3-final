@@ -132,3 +132,8 @@ tr:nth-child(even) {
   border-radius: 25px;
   height: 40px;
 }
+
+.SocialIcon {
+  cursor: pointer;
+  margin: 10px 10px;
+}
