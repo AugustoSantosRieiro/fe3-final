@@ -113,19 +113,19 @@ tr:nth-child(even) {
 }
 
 .dark{
-  background-color: #ff000096;
+  background-color: #777777b7;
   color: rgb(0, 0, 0);
 }
 .dark > a {
-  color: rgb(25, 0, 255);
+  color: rgb(255, 255, 255);
 } 
 
 .light{
   background-color: #ffffff;
-  color: rgb(8, 10, 124);
+  color: rgb(0, 0, 0);
 }
 .light > a {
-  color: rgb(38, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 .buttonTheme {

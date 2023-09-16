@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Card from '../Components/Card';
 
 const Detail = () => {
   const { id } = useParams();
@@ -28,15 +27,13 @@ const Detail = () => {
   return (
     <>
       <h1>Detalles del Dentista</h1>
-      <div style={{ display: 'flex', justifyContent: 'center', color: 'black' }}>
-        <Card
-          name={dentistaByid.name}
-          username={dentistaByid.username}
-          email={dentistaByid.email}
-          phone={dentistaByid.phone}
-          website={dentistaByid.website}
-        />
-      </div>
+      <ul>
+        <li><strong>Nombre:</strong> {dentistaByid.name}</li>
+        <li><strong>Nombre de usuario:</strong> {dentistaByid.username}</li>
+        <li><strong>Correo electrónico:</strong> {dentistaByid.email}</li>
+        <li><strong>Teléfono:</strong> {dentistaByid.phone}</li>
+        <li><strong>Sitio web:</strong> {dentistaByid.website}</li>
+      </ul>
     </>
   );
 };
