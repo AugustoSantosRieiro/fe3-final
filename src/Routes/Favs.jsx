@@ -11,7 +11,7 @@ const { providerValues } = useContext(ContextGlobal);
   const filteredDentists = data.filter(dentist => dentistsFromStorage.find(dent=> dent.id === dentist.id))
 return (
     <>
-      <h1>Dentists Favs</h1>
+      <h1>Dentistas favoritos</h1>
       <div  className="card-grid">
       
       {

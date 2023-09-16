@@ -30,7 +30,7 @@ const Card = ({ name, username, id, website, phone, email }) => {
   
   return (
     <div className="card">
-      <img style={{ width: "150px" }} src={doc} alt="" />
+      <img style={{ width: "120px" }} src={doc} alt="" />
       <h3>{name}</h3>
       <h3>{username}</h3>
       {email && phone && website && (
